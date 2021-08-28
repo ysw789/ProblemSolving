@@ -9,7 +9,7 @@ n = int(input())
 # 한 번 계산된 결과를 메모이제이션 하기 위한 리스트 초기화
 d = [0] * 100
 
-# 피모나치 수열을 재귀함수로 구현(Bottom-Down)
+# 피모나치 수열을 재귀함수로 구현(Top-Down)
 def fibo(x):
     if x == 1 or x == 2:
         return 1
