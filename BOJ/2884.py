@@ -15,6 +15,6 @@ if m < 0:
     m = restMin
     h -= 1
     if h < 0:
-        h = 23
+        h += 24
         
 print(h, m)
